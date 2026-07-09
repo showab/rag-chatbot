@@ -9,14 +9,18 @@
 
 ---
 
-## 📸 Screenshots
+## 📸 Architecture Diagram
 
-<!-- Add screenshots here after running the app -->
+![Architecture](screenshots/architecture.png)
+
+## 🖼️ Screenshots
+
+> 💡 **To capture screenshots:** Run `docker-compose up`, upload a PDF, ask questions, and take screenshots of the chat + upload UI.
+> Replace `screenshots/chat.png` and `screenshots/upload.png` with your own captures.
+
 | Chat Interface | Document Upload |
 |:---:|:---:|
 | ![Chat](screenshots/chat.png) | ![Upload](screenshots/upload.png) |
-
-> *Replace these with actual screenshots after deployment*
 
 ---
 
@@ -68,7 +72,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/rag-chatbot.git
+git clone https://github.com/showab/rag-chatbot.git
 cd rag-chatbot
 
 # Set your API key
@@ -169,6 +173,8 @@ rag-chatbot/
 │   │   └── App.css                  # Dark theme styles
 │   ├── Dockerfile
 │   └── package.json
+├── screenshots/
+│   └── architecture.png
 ├── docker-compose.yml
 └── README.md
 ```
@@ -218,7 +224,7 @@ MIT License — see [LICENSE](LICENSE) file for details.
 
 ## 🙋‍♂️ Author
 
-**Sonia** — [GitHub](https://github.com/YOUR_USERNAME) | [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+**Sonia** — [GitHub](https://github.com/showab) | [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
 
 ---
 
