@@ -224,7 +224,7 @@ MIT License — see [LICENSE](LICENSE) file for details.
 
 ## 🙋‍♂️ Author
 
-**Sonia** — [GitHub](https://github.com/showab) | [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+**Showab Ahammad** — [GitHub](https://github.com/showab) | [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
 
 ---
 
