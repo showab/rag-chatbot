@@ -32,4 +32,3 @@ jobs:
         run: |
           cd backend
           python -m pytest tests/ -v
-# CI/CD workflow for RAG Chatbot
