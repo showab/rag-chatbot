@@ -9,18 +9,76 @@
 
 ---
 
-## 📸 Architecture Diagram
+## 📸 Screenshots
 
-![Architecture](screenshots/architecture.png)
-
-## 🖼️ Screenshots
-
-> 💡 **To capture screenshots:** Run `docker-compose up`, upload a PDF, ask questions, and take screenshots of the chat + upload UI.
-> Replace `screenshots/chat.png` and `screenshots/upload.png` with your own captures.
-
+<!-- Add screenshots here after running the app -->
 | Chat Interface | Document Upload |
 |:---:|:---:|
 | ![Chat](screenshots/chat.png) | ![Upload](screenshots/upload.png) |
+
+> *Replace these with actual screenshots after deployment*
+
+---
+
+## 🎨 UI Design
+
+### Chat Interface
+```
+┌───────────────┬─────────────────────────────────────────────┐
+│  📄 Chat History                              [+ New Chat]  │
+│  ───────────── │───────────────────────────────────────────│
+│  💬 What is   │ 🤖 RAG Chatbot                              │
+│  machine       │                                             │
+│  learning?    │  👤 What is machine learning?                │
+│               │                                             │
+│  💬 Explain   │  🤖 Machine learning is a subset of          │
+│  neural net   │  artificial intelligence that enables       │
+│               │  systems to learn and improve from          │
+│  💬 Types of  │  experience... [citation:ML-Basics.pdf:3]    │
+│  ML algo      │                                             │
+│               │  The three main types are:                   │
+│  ─────────────│  • Supervised Learning                      │
+│               │  • Unsupervised Learning                    │
+│               │  • Reinforcement Learning                   │
+│               │  [citation:ML-Guide.pdf:12]                 │
+│               │                                             │
+│               ├──────────────────────────────────────────────│
+│               │  📎 [Upload PDF]  [Type your question...] ➤ │
+└───────────────┴─────────────────────────────────────────────┘
+```
+
+### Document Upload
+```
+┌─────────────────────────────────────────────┐
+│  ┌───────────────────────────────────────┐  │
+│  │          📁                           │  │
+│  │    Drop PDFs here or click to browse  │  │
+│  │         (Max 10MB each)               │  │
+│  └───────────────────────────────────────┘  │
+│                                             │
+│  📄 ML-Basics.pdf         3.2 MB  ✅        │
+│  📄 Deep-Learning.pdf     5.1 MB  ⏳ 78%    │
+│  📄 Neural-Nets.pdf       2.8 MB  ✅        │
+│                                             │
+│  [Clear All] [Process Documents]            │
+└─────────────────────────────────────────────┘
+```
+
+### Design System
+
+| Element | Style |
+|---------|-------|
+| **Background** | Dark theme `#0f172a` |
+| **Sidebar** | `#1e293b` with chat history list |
+| **User Message** | Indigo `#6366f1` right-aligned |
+| **Bot Message** | `#1e293b` left-aligned with citations |
+| **Citations** | Amber badges `#f59e0b` with PDF name + page |
+| **New Chat Button** | `#6366f1` rounded |
+| **Upload Zone** | Dashed border with drag-and-drop |
+| **Upload Progress** | Green `#22c55e` completion indicator |
+| **Streaming** | Blinking cursor during SSE response |
+| **Code Blocks** | `#0f172a` background, `#a5b4fc` syntax |
+| **Input** | Pill-shaped with paperclip + send buttons |
 
 ---
 
@@ -72,7 +130,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/showab/rag-chatbot.git
+git clone https://github.com/YOUR_USERNAME/rag-chatbot.git
 cd rag-chatbot
 
 # Set your API key
@@ -173,8 +231,6 @@ rag-chatbot/
 │   │   └── App.css                  # Dark theme styles
 │   ├── Dockerfile
 │   └── package.json
-├── screenshots/
-│   └── architecture.png
 ├── docker-compose.yml
 └── README.md
 ```
@@ -224,7 +280,7 @@ MIT License — see [LICENSE](LICENSE) file for details.
 
 ## 🙋‍♂️ Author
 
-**Showab Ahammad** — [GitHub](https://github.com/showab) | [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+**Sonia** — [GitHub](https://github.com/YOUR_USERNAME) | [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
 
 ---
 
